@@ -1,0 +1,156 @@
+/* CSS */
+html, body{
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	overflow-y: auto;
+}
+html {
+	/*Prevent text size change on orientation change.*/
+	-webkit-text-size-adjust: 100%;
+}
+#body {
+	overflow-y: auto;
+	background: url("img/bg3.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+#logo {
+	margin-left: auto;
+	margin-right: auto;			
+	height: 50px;
+	width: auto;
+}
+
+#map-canvas {
+	border:2px solid #515151;
+	width:66.666%;
+	height:70%;
+	position:absolute;
+	left:16.666%;
+	top:50px;
+	bottom:0;
+	overflow:hidden;
+}
+
+
+/* Disable the google map status bar, terms of use, etc.*/
+.gm-style-cc { display:none; } 
+
+
+
+#ab-buttons {
+	margin-top: 100%;
+
+}
+
+.center-x{ text-align:center;}
+
+.btn-xlg {
+	padding: 18px 28px;
+	font-size: 22px;
+	line-height: normal;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+}
+
+#textbox1 {
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	padding: 2px;
+	font-family: "Courier New", Courier, monospace;
+	font-weight: bold;
+}
+#textbox2 {
+	position: absolute;
+	width: 100%;
+	bottom: 0px;
+	padding: 2px;
+	font-family: "Courier New", Courier, monospace;
+	font-weight: bold;
+}
+
+#notification {
+	float: right;
+}
+#action {
+	float:right;
+}
+
+/* FIGHT MODE */
+
+#fight-mode {
+	background-color:#ddd;
+	border: 2px solid #aaa;
+	position: absolute;
+	z-index: 2;
+	width:66.666%;
+	height:70%;
+	left:16.666%;
+	top:50px;
+	bottom:0;
+	overflow:hidden;
+	display: none;
+
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 1em;
+	font-weight: bold;
+}
+/*
+#fight-mode * {	/*border: 1px dashed #eee;}
+#fight-mode h2 {
+	text-align:center;
+	font-size: 1.4em;
+	font-family: Impact, Charcoal, sans-serif;
+}
+
+#actioninfo {
+	position:relative;
+	width: 100%;
+	z-index:4;
+	font-size:1.1em;
+	color:#900;
+}
+*/
+#fight-mode .img {
+	border: 3px solid #999;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.fight-element {
+	position:absolute;
+}
+hr {
+	border: 0;
+	border-bottom: 3px dashed #ccc;
+	background: #aaa;
+}
+
+#monster-img {
+	/* content:url("img/monster.png");*/
+	height:25%;
+	width:auto;
+	right:0;
+}
+#monster-box {
+	padding:0;
+	right:25%;
+	position:relative;
+	float:right;
+}
+#player-img {
+	content:url("img/ball.png");
+	height:25%;
+	width:auto;
+	bottom:0;
+	left:0;
+}
+#player-box {
+	padding:0;
+	bottom:0;
+	left:15%;
+}
